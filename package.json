@@ -4,13 +4,15 @@
   "description": "a session with Brian Holt on React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet'",
     "prettier": "prettier --write \"src/**/*.{js,jsx,css,html}\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
     "prettier": "^3.5.3"
   }
 }
